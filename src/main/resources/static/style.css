@@ -1,0 +1,98 @@
+body {
+    background: #f2f2f2;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    position: relative;
+    top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: 1px solid #808080;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background: #d9d9d9;
+}
+tr:hover {
+    background: #bfbfbf;
+}
+td {
+    border-right: 1px solid #808080;
+    text-align: left;
+    padding-left: 5px;
+}
+th {
+    border-right: 1px solid #808080;
+    background: #bfbfbf;
+    cursor: pointer;
+}
+th:hover {
+    background: #808080;
+}
+#id {
+    width: 30px;
+    cursor: pointer;
+    background-color: #bfbfbf;
+}
+select {
+    width: 105px;
+}
+#filterForm, #addingForm, #addForm, #searchForm {
+    width: 220px;
+    border: 1px solid #808080;
+    margin-bottom: 10px;
+}
+#filterLabel {
+    display: inline-block;
+    width: 70px;
+    margin-left: 20px;
+}
+
+#addTypeLabel {
+    margin-left: 10px;
+}
+.inputs {
+    width: 40px;
+}
+.inputsString {
+    width: 90px;
+}
+#title {
+    text-align: center;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.addingBody {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+.btn {
+    width: 70px;
+}
+#adding, #searchInput {
+    width: 130px;
+    margin-top: 10px;
+}
+#addingForm, #searchForm {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.formsDiv {
+    width: 220px;
+    margin-left: 10px;
+}
+#idBtn {
+    background: #f2f2f2;
+    height: 100%;
+    width: 90%;
+    border: #808080 1px solid;
+}
+#idBtn:hover {
+    background-color: #bfbfbf;
+}

@@ -1,0 +1,48 @@
+body {
+    background: #f2f2f2;
+}
+.container {
+    position: relative;
+    top: 4vh;
+    margin: auto;
+    width: 60%;
+    padding: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #808080;
+}
+label {
+    display: inline-block;
+    width: 10vw;
+}
+input {
+    width: 100px;
+}
+input[type="text"], textarea {
+    background: #f2f2f2;
+    border: 1px solid #808080;
+    text-align: center;
+}
+button {
+    width: 6vw;
+}
+h4 {
+    margin-bottom: 4vh;
+    display: flex;
+    justify-content: center;
+}
+.inputDivs {
+    margin-bottom: 2vh;
+}
+.btnDiv, .deleteBtn {
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.error {
+    color: rgba(255, 0, 0, 0.575);
+    font-size: small;
+    display: none;
+    text-align: center;
+}

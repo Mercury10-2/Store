@@ -1,0 +1,28 @@
+body {
+    background: #f2f2f2;
+}
+table {
+    border: 1px solid #808080;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+tr:nth-child(odd) {
+    background: #d9d9d9;
+}
+tr:hover {
+    background: #bfbfbf;
+    cursor: pointer;
+}
+th, td {
+    width: 60px;
+    border-right: 1px solid #808080;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+th {
+    background: #bfbfbf;
+}
+#id {
+    width: 30px;
+}
